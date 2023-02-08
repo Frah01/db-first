@@ -1,0 +1,23 @@
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,AUTOMOBILI,,
+,,,,,,COLONNA,TIPO,ATTRIBUTI,CHIAVI
+,,,,,,Id,INT,"AUTO_INCREMENT, NOT NULL",PRIMARY KEY
+,,,,,,Marca,VARCHAR(15),NOT_NULL,
+,,,,,,Modello,VARCHAR(20),NOT_NULL,
+,,,,,,Colore,VARCHAR(10),NULL,
+,,,,,,Prezzo,"FLOAT(9,2)",NOT_NULL,
+,,,,,,Codice_Tagliando,VARCHAR(20),NOT_NULL,INDEX
+,,,,,,Codice_Auto,VARCHAR(25),NOT_NULL,
+,,,,,,KmPercorsi,"FLOAT(9,1)",NULL,
+,,,,,,Data_produzione,DATE,NULL,
+,,,,,,Data_Entro_In_Concessoinario,DATE,NOT_NULL,
+,,,,,,Condizione_Auto,TINYINT,NOT_NULL,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,CONDIZIONE_AUTO,,,
+,,,,,,VALORE,STATO,,
+,,,,,,1,OTTIMO,,
+,,,,,,2,BUONO,,
